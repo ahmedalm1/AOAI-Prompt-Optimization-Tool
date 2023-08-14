@@ -9,7 +9,7 @@ An existing Azure OpenAI resource and model deployment of a chat model (e.g. gpt
 
 ### Deploy from your local machine
 
-1. Update the environment variables listed in `.env.sample` with your API Key, Endpoint, and Deployed Model.
+1. Create an environment variables file `.env` with your API Key, Endpoint, and Deployed Model name.
 - `AZURE_OPENAI_API_KEY`: your Azure OpenAI resource API key.
 - `AZURE_OPENAI_API_ENDPOINT`: your Azure OpenAI resource endpoint.
 - `AZURE_OPENAI_DEPLOYED_MODEL`: your Azure OpenAI deployment name.
