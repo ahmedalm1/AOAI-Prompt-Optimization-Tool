@@ -13,7 +13,7 @@ openai.api_base = os.getenv("AZURE_OPENAI_API_ENDPOINT")
 class PromptOptimizerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Prompt Optimizer App")
+        self.root.title("Prompt Optimization Tool")
 
         self.prompt_label = tk.Label(root, text="Enter your prompt:")
         self.prompt_label.pack(pady=10)
